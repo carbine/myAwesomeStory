@@ -1,2 +1,3 @@
 /*
-COMP9417 Machin
+COMP9417 Machine Learning
+Major Projec
