@@ -1,4 +1,5 @@
 /*
 COMP9417 Machine Learning
 Major Project - Traffic Lights Reinforcement Learning
-Beth 
+Beth Crane
+Gill Morri
