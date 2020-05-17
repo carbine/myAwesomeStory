@@ -9,4 +9,4 @@ import interfaces.Action;
 
 import java.util.List;
 
-//Implementation of methods in interfaces.LearningMo
+//Implementation of methods in interfaces.LearningModule interfac
