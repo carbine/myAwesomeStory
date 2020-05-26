@@ -13,4 +13,5 @@ import java.util.List;
 public class ActionImpl implements Action {
     private boolean toSwitch;
 
-    public ActionImpl(boolean toSwit
+    public ActionImpl(boolean toSwitch) {
+        this.
