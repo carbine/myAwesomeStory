@@ -16,3 +16,5 @@ public class ActionImpl implements Action {
     public ActionImpl(boolean toSwitch) {
         this.toSwitch = toSwitch;
     }
+
+    public A
