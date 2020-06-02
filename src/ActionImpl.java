@@ -17,4 +17,4 @@ public class ActionImpl implements Action {
         this.toSwitch = toSwitch;
     }
 
-    public A
+    public ActionImpl() {
