@@ -19,3 +19,6 @@ public class ActionImpl implements Action {
 
     public ActionImpl() {
         this(false);
+    }
+
+    p
