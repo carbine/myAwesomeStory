@@ -21,4 +21,4 @@ public class ActionImpl implements Action {
         this(false);
     }
 
-    p
+    public boolean act
