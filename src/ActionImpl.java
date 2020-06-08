@@ -23,4 +23,6 @@ public class ActionImpl implements Action {
 
     public boolean action() {
         return toSwitch;
-    
+    }
+
+    public i
