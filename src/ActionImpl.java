@@ -25,4 +25,4 @@ public class ActionImpl implements Action {
         return toSwitch;
     }
 
-    public i
+    public int actionInt() {
