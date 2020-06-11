@@ -27,4 +27,5 @@ public class ActionImpl implements Action {
 
     public int actionInt() {
         return toSwitch ? 1 : 0;
-   
+    }
+}
