@@ -8,4 +8,5 @@ import utils.Velocity;
 import java.util.List;
 
 /*
-COMP9417 Machine Lea
+COMP9417 Machine Learning
+Major
