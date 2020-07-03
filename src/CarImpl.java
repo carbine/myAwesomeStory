@@ -10,4 +10,5 @@ import java.util.List;
 /*
 COMP9417 Machine Learning
 Major Project - Traffic Lights Reinforcement Learning
-B
+Beth Crane
+Gill Morris
