@@ -16,4 +16,5 @@ Nathan Wilson
 */
 public class CarImpl implements Car {
     private Road road;
-    p
+    private int lane;
+ 
