@@ -18,4 +18,6 @@ public class CarImpl implements Car {
     private Road road;
     private int lane;
     private int distAlongRoad;
-    private int velocity
+    private int velocity;
+    
+    p
