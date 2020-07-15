@@ -20,4 +20,4 @@ public class CarImpl implements Car {
     private int distAlongRoad;
     private int velocity;
     
-    p
+    public CarImpl(Road 
