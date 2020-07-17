@@ -20,4 +20,5 @@ public class CarImpl implements Car {
     private int distAlongRoad;
     private int velocity;
     
-    public CarImpl(Road r, int lane, int v0)
+    public CarImpl(Road r, int lane, int v0) {
+        this.r
