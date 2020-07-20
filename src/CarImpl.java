@@ -21,4 +21,4 @@ public class CarImpl implements Car {
     private int velocity;
     
     public CarImpl(Road r, int lane, int v0) {
-        this.road = new RoadImpl(r
+        this.road = new RoadImpl(r.lanes(), r.leng
