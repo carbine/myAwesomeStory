@@ -22,4 +22,4 @@ public class CarImpl implements Car {
     
     public CarImpl(Road r, int lane, int v0) {
         this.road = new RoadImpl(r.lanes(), r.length());
-       
+        this.vel
