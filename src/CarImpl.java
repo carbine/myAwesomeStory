@@ -25,3 +25,6 @@ public class CarImpl implements Car {
         this.velocity = v0;
         this.lane = lane;
         this.distAlongRoad = 0;
+    }
+
+   
