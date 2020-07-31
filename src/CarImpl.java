@@ -24,4 +24,4 @@ public class CarImpl implements Car {
         this.road = new RoadImpl(r.lanes(), r.length());
         this.velocity = v0;
         this.lane = lane;
-        this.distA
+        this.distAlongRoad = 0;
