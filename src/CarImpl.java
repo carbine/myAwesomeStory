@@ -27,4 +27,4 @@ public class CarImpl implements Car {
         this.distAlongRoad = 0;
     }
 
-   
+    public void move(
