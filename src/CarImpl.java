@@ -28,4 +28,4 @@ public class CarImpl implements Car {
     }
 
     public void move() {
-    	dis
+    	distAlongRoad += 
