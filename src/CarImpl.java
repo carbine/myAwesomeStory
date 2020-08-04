@@ -30,4 +30,5 @@ public class CarImpl implements Car {
     public void move() {
     	distAlongRoad += velocity;
     }
- 
+    
+    public
