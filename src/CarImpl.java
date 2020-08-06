@@ -32,4 +32,5 @@ public class CarImpl implements Car {
     }
     
     public int distAlongRoad() {
-    	return dist
+    	return distAlongRoad;
+    
