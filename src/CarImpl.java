@@ -33,4 +33,6 @@ public class CarImpl implements Car {
     
     public int distAlongRoad() {
     	return distAlongRoad;
-    
+    }
+
+    public in
