@@ -36,4 +36,4 @@ public class CarImpl implements Car {
     }
 
     public int velocity() {
-        return
+        return velocity;
