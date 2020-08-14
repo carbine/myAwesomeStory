@@ -39,4 +39,5 @@ public class CarImpl implements Car {
         return velocity;
     }
     
-    public Road road
+    public Road road() {
+    	return 
