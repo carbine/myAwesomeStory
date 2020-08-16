@@ -40,4 +40,5 @@ public class CarImpl implements Car {
     }
     
     public Road road() {
-    	return 
+    	return road;
+    }
