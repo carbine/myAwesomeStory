@@ -13,3 +13,26 @@
 	Updating a bunch of interfaces; hopefully reduce the complexity
 	sufficiently that variable lanes, turning traffic, etc can be
 	implemented reasonably easily.
+
+	* interfaces/Car.java: 
+	    - merged updateVelocity and updatePosition into move
+	    - removed stopped and getChar
+
+2012-06-04 12:18:38 Gill <gmail gillemorris>
+	* Makefile: now uses restored package heirarchy
+
+2012-06-03 20:37:51 Gill <gmail gillemorris>
+	* Main.java: minor changes; can pass RL parameters in as arguments
+	* interfaces/LearningModule.java: ""
+	* LearningModuleImpl.java: "". Also reformatted the code and some
+	    logic here and there. While some design aspects remain
+	    questionable I change it further due to time constraints.
+	    Unless something is suggested.
+
+2012-06-03 --:--:-- Gill <gmail gillemorris>
+	* CarImpl.java: stopped() now returns whether the car has zero
+	   velocity (rather than zero position).
+	* Main.java: now evaluates the success of the learning algorithm.
+
+2012-06-03 6:03: -- Nathan
+    *updated to have 4 traffic lights. this required some reworking of
