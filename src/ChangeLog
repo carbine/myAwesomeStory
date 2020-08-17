@@ -36,3 +36,13 @@
 
 2012-06-03 6:03: -- Nathan
     *updated to have 4 traffic lights. this required some reworking of
+     how we update car velocities as we don't want to move a car across
+     an intersection when there is no room for it on the other side
+    *a few other minor changes here and there to handle a larger map, etc
+    *tried to implement turning cars but backed out before it got too
+     complex. I don't think we should bother with implementing this - it
+     requires quite a lot of fiddlyness to do and really adds very little
+     value to the learning as our learning depends only on cars waiting,
+     not on direction they could be turning
+
+2012-06-03 04:36:-- Gill <gmail gillemorris>
