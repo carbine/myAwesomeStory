@@ -105,3 +105,18 @@
 	LearnerModuleImpl.
 	
         -I made the substantial changes, it was necessary because of the way I had to 
+        do amber lights, see brief description above
+        - by all means move it into learnermoduleimpl
+
+2012-06-02 12:00 Nathan
+	        query: "base method" being a method of Object/whatever else
+	    that might be extended?
+	    -Base method being the method in the interface that is actually called.
+	    Our program should never be calling a method of an impl class, it should
+	    be calling a method of eg RoadMap, which then redirects to the method in
+	    whichever class that particular instance is
+
+	* Main.java: started cleaning up some duplicated code. However
+	             the only reason I actually submitted this modified
+	             version is I accidently deleted the old one; so by
+	             all means overwrite it in case of a conflict.
