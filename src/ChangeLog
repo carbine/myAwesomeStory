@@ -130,3 +130,23 @@
 	everything still works. Though a brief inspection of the output
 	indicates its learning quite well.
 	    Also, can we take stateCode out of RoadMap? The value thus
+	computed is basically useless to everything except
+	LearnerModuleImpl.
+
+	* Viewer.java: exists. provides graphical output functionality.
+	* Main.java: uses this functionality.
+	* interfaces/RoadMap.java: features `boolean roadAt(Coords)'
+	* RoadMapImpl.java: implements this.
+
+2012-06-02 02:39:17 Gill <gmail gillemorris>
+	@Nathan: 
+	    re: gridSize: is it actually an interior field? you'd need
+	    to know it if you ever want to say a traffic light is on a 
+	    map; eg, Main.java:41. you could have a getter for a private
+	    final int if you like, though i don't see what is to be
+	    gained there.
+	        the other possibilty is if we wanted the map size to be
+	    either undefined or expandable (more probably the latter
+	    given how we've currently decided to represent it). in that
+	    case it could be useful having RoadMap give you a list of 
+	    intersections? you'd also need a way of predicting the
