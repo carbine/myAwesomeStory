@@ -183,3 +183,24 @@ responding to changes below:
 	- suggested renaming `removeIfOffRoad' but then did nothing
 	  about it
 	    - I have renamed this to 'hasLeftMap' - hopefully connotates the intention of the method a bit better
+
+2012-06-01 03:38:32 Gill
+	* Action.java: now exists
+
+	* TrafficLight.java: added method `clock'
+
+	* Main.java: adheres to the updated TrafficLight and 
+	             LearnerModule interfaces.
+
+	* LearningModule.java: started merging aforementioned code from 
+	                       beth's TrafficLight into LearningModule.
+	                       not finished so the new code is commented.
+
+2012-06-01 01:00:00 Gill
+	* .: clarification: from the first bit of code I read I 
+	     concluded that for loops are written "for (T t : C)\n{". 
+
+	* ChangeLog: now exists.
+
+	* CarImpl.java:
+	- changed position, velocity and direction to be private
