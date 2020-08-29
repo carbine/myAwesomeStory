@@ -219,3 +219,11 @@ responding to changes below:
 	- changed gridSize to be public final
 	- defined private final char carChar = 'C'
 	- added a defaultEntrances array
+	    - modified code throughout file to use this 
+	      appropriately
+	- in function `print':
+	    - reformatted so it fits on my screen
+	    - changed bottom for loop to be consistent with the rest of
+	      the project
+	- minor reformatting to `addCars' and `nextNonCarSquare...'
+	- gave up adding "??" comments every time I saw an @Override
