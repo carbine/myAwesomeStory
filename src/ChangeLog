@@ -204,3 +204,18 @@ responding to changes below:
 
 	* CarImpl.java:
 	- changed position, velocity and direction to be private
+	- removed the restriction that direction is 1 or -1
+	- in function `updateVelocity':
+	    - highlighted a quirk regarding 'horizontal' and
+	      'vertical' but then did nothing about it
+	    - reformatted so it fits on my screen
+	    - changed the commentary somewhat
+	- renamed `getPosition' to `getCoords' to be consistent with
+	  class `TrafficLight'
+	- suggested renaming `removeIfOffRoad' but then did nothing
+	  about it
+
+	* RoadMapImpl.java:
+	- changed gridSize to be public final
+	- defined private final char carChar = 'C'
+	- added a defaultEntrances array
