@@ -227,3 +227,14 @@ responding to changes below:
 	      the project
 	- minor reformatting to `addCars' and `nextNonCarSquare...'
 	- gave up adding "??" comments every time I saw an @Override
+	  that didn't appear to override anything
+
+	* Main.java:
+	- formatting
+	- reformatted some things
+	- adjusted the layout of function `main'
+
+	* LearningModule.java: now features a `learn' method which 
+	should be called after the effects of `updateTrafficLights' 
+	have been implemented. Changed signature of 
+	`updateTrafficLights'.
