@@ -6,4 +6,5 @@ Gill Morris
 Nathan Wilson
 */
 
-import interfaces
+import interfaces.Intersect;
+imp
