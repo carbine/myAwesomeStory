@@ -12,4 +12,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class IntersectImpl implements Intersect {
-    private List
+    private List<Road> in, out;
+ 
