@@ -14,4 +14,4 @@ import java.util.ArrayList;
 public class IntersectImpl implements Intersect {
     private List<Road> in, out;
     private int lightSetting;
-    pr
+    private List<Integer> dela
