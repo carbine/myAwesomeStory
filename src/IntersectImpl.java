@@ -15,4 +15,6 @@ public class IntersectImpl implements Intersect {
     private List<Road> in, out;
     private int lightSetting;
     private List<Integer> delay;
-    private final int maxDelay = 3; 
+    private final int maxDelay = 3;    
+
+    publi
