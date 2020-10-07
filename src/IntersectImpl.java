@@ -18,4 +18,5 @@ public class IntersectImpl implements Intersect {
     private final int maxDelay = 3;    
 
     public IntersectImpl(List<Road> in, List<Road> out) {
-        this.in
+        this.in = in;
+  
