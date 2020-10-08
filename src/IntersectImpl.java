@@ -19,4 +19,4 @@ public class IntersectImpl implements Intersect {
 
     public IntersectImpl(List<Road> in, List<Road> out) {
         this.in = in;
-  
+        this.o
