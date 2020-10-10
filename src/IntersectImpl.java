@@ -21,4 +21,4 @@ public class IntersectImpl implements Intersect {
         this.in = in;
         this.out = out;
         this.lightSetting = 0;
-       
+        this.delay = ne
