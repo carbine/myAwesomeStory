@@ -22,4 +22,6 @@ public class IntersectImpl implements Intersect {
         this.out = out;
         this.lightSetting = 0;
         this.delay = new ArrayList<Integer>(in.size());
-    
+    }
+
+    public Lis
