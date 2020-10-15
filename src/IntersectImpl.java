@@ -24,4 +24,4 @@ public class IntersectImpl implements Intersect {
         this.delay = new ArrayList<Integer>(in.size());
     }
 
-    public Lis
+    public List<Road> in() {
