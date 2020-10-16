@@ -25,3 +25,4 @@ public class IntersectImpl implements Intersect {
     }
 
     public List<Road> in() {
+        re
