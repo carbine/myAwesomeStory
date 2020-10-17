@@ -28,4 +28,4 @@ public class IntersectImpl implements Intersect {
         return in;
     }
 
-  
+    public L
