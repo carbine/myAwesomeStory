@@ -28,4 +28,5 @@ public class IntersectImpl implements Intersect {
         return in;
     }
 
-    public List<Road> ou
+    public List<Road> out() {
+      
