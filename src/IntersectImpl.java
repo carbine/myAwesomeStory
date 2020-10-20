@@ -30,3 +30,6 @@ public class IntersectImpl implements Intersect {
 
     public List<Road> out() {
         return out;
+    }
+
+    public 
