@@ -36,3 +36,4 @@ public class IntersectImpl implements Intersect {
         return lightSetting;
     }
 
+    public 
