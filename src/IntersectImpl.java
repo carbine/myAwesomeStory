@@ -36,4 +36,5 @@ public class IntersectImpl implements Intersect {
         return lightSetting;
     }
 
-    public List<Integer>
+    public List<Integer> delay() {
+        r
