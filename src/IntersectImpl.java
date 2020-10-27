@@ -37,4 +37,4 @@ public class IntersectImpl implements Intersect {
     }
 
     public List<Integer> delay() {
-        r
+        return delay;
