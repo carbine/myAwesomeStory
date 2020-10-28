@@ -38,3 +38,6 @@ public class IntersectImpl implements Intersect {
 
     public List<Integer> delay() {
         return delay;
+    }    
+
+    public v
