@@ -40,4 +40,5 @@ public class IntersectImpl implements Intersect {
         return delay;
     }    
 
-    public void setLight(int s
+    public void setLight(int setting) {
+        l
