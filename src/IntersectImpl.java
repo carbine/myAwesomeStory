@@ -41,4 +41,7 @@ public class IntersectImpl implements Intersect {
     }    
 
     public void setLight(int setting) {
-        lightSetting = s
+        lightSetting = setting;
+    }
+
+  
