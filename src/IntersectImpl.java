@@ -44,4 +44,4 @@ public class IntersectImpl implements Intersect {
         lightSetting = setting;
     }
 
-  
+    public v
