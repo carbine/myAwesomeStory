@@ -45,4 +45,4 @@ public class IntersectImpl implements Intersect {
     }
 
     public void clock() {
-    
+        for (int 
