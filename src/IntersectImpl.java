@@ -45,4 +45,5 @@ public class IntersectImpl implements Intersect {
     }
 
     public void clock() {
-        for (int i = 0; i < 
+        for (int i = 0; i < in.size(); ++i) {
+     
