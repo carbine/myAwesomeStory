@@ -50,3 +50,6 @@ public class IntersectImpl implements Intersect {
             if (u > 0) {
                 delay.set(u - 1, i);
             }
+        }
+    }
+}
