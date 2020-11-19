@@ -48,4 +48,5 @@ public class IntersectImpl implements Intersect {
         for (int i = 0; i < in.size(); ++i) {
             int u = delay.get(i);
             if (u > 0) {
-                delay.set(u - 1, i)
+                delay.set(u - 1, i);
+            }
