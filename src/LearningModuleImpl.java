@@ -74,3 +74,23 @@ public class LearningModuleImpl implements LearningModule {
             ret = Math.max(ret, q[s*nActions + i]);
         }
         return ret;
+    }
+
+    //Reward -1.0 if a car is stopped at a red light on either road, 
+    //zero otherwise.
+    public int reward(int stateCode) {
+        //__1__ = horizontal green
+        // 0____ = car at 0 on horizontal
+        //_0___ = car at 0 on vertical
+        // hence 0_0__ = car stopped at horizontal road
+        // hence _01__ = car stopped at vertical road
+
+        int rewardNum;
+
+        // If it's 1 digit both roads have a car at 0
+        if (stateCode / 10 == 0) {
+            rewardNum = -2;
+        // If it's 2 digits horizontal road has car at 0
+        // Hence we check if the light is 0 (red for horizontal)
+        } else if (stateCode / 100 == 0 && stateCode % 10 == 0) {
+            rewardNum = -1;
