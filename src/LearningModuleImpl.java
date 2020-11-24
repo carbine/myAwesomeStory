@@ -60,3 +60,17 @@ public class LearningModuleImpl implements LearningModule {
     		Road r = l.in().get(i);
     		int closestCar = 9;
     		for (Car c : m.carsOn(i)) {
+    			closestCar = Math.min(closestCar,  
+                    r.length()-c.distAlongRoad());
+    		}
+    		ret += Math.pow(10, i+2)*closestCar;
+    	}
+    	return ret;
+    }
+    
+    public double maxQ(int s) {
+        double ret = -100;
+        for (int i = 0; i < nActions; ++i) {
+            ret = Math.max(ret, q[s*nActions + i]);
+        }
+        return ret;
