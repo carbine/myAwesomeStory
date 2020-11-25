@@ -94,3 +94,15 @@ public class LearningModuleImpl implements LearningModule {
         // Hence we check if the light is 0 (red for horizontal)
         } else if (stateCode / 100 == 0 && stateCode % 10 == 0) {
             rewardNum = -1;
+        // Else if the second digit is 0 there's a car at the
+        // vertical road
+        // Hence we check if the light is 1 (red for vertical)
+        } else if (stateCode/10 % 10 == 0 && stateCode % 10 == 1) {
+            rewardNum = -1;
+        } else {
+            rewardNum = 0;
+        }
+
+        return rewardNum;
+    }
+}
