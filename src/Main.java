@@ -29,3 +29,18 @@ public class Main {
 
         RoadMap map = new RoadMapImpl();
         LearningModule learner = new LearningModuleImpl();
+        Viewer viewer = new Viewer(map);
+        for (int t = 0; t < runTime; ++t) {
+            System.out.println("Time " + t);
+            List<Intersect> _ = map.intersections();
+            System.out.println("Intersections for " + map + " are " + _);
+            int n = _.size(), j = 0;
+            int[] a = new int[n], s = new int[n], sp = new int[n];
+
+            for (Intersect i : map.intersections()) {
+                s[j] = learner.stateCode(i, map);
+                a[j] = learner.decide(s[j]);
+                i.setLight(a[j++]);
+            }
+            map.clock();
+            for (int u = 0; u < map.nRoads(); ++u) {
