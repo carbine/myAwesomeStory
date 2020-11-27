@@ -44,3 +44,26 @@ public class Main {
             }
             map.clock();
             for (int u = 0; u < map.nRoads(); ++u) {
+                for (int v = 0; v < map.road(u).lanes(); ++v) {
+                    if (Math.random() < trafficIntensity) {
+                        map.spawn(u, v);
+                    }
+                }
+            }
+            j = 0;
+            for (Intersect i : map.intersections()) {
+                sp[j] = learner.stateCode(i, map);
+                learner.learn(a[j], s[j], sp[j]);
+                ++j;
+            }
+
+            if (t >= quietTime) {
+                if (output) {
+                    try {
+                        Thread.sleep(500);
+                    } catch (Exception e) {
+                        System.err.println("Unable to sleep.");
+                    }
+                }
+            }
+        }
