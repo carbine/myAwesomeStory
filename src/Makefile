@@ -1,2 +1,3 @@
 JC = javac
-JFL
+JFLAGS = 
+CLASSES =
