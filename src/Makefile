@@ -1,3 +1,4 @@
 JC = javac
 JFLAGS = 
-CLASSES =
+CLASSES = 			\
+	ActionImpl.ja
