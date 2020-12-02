@@ -1,4 +1,5 @@
 JC = javac
 JFLAGS = 
 CLASSES = 			\
-	ActionImpl.ja
+	ActionImpl.java		\
+	CarImpl.
