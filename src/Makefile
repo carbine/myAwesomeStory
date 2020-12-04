@@ -3,4 +3,5 @@ JFLAGS =
 CLASSES = 			\
 	ActionImpl.java		\
 	CarImpl.java		\
-	LearningModuleImpl
+	LearningModuleImpl.java	\
+	Mai
