@@ -6,3 +6,4 @@ CLASSES = 			\
 	LearningModuleImpl.java	\
 	Main.java		\
 	RoadMapImpl.java	\
+	TrafficLightImpl.java	
