@@ -7,4 +7,6 @@ CLASSES = 			\
 	Main.java		\
 	RoadMapImpl.java	\
 	TrafficLightImpl.java	\
-	Viewe
+	Viewer.java
+
+default:
