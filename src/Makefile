@@ -10,3 +10,4 @@ CLASSES = 			\
 	Viewer.java
 
 default:
+	$(JC) $(JFLAG
