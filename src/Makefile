@@ -13,4 +13,4 @@ default:
 	$(JC) $(JFLAGS) $(CLASSES)
 
 clean:
-	find . | grep "
+	find . | grep "class$$" | x
