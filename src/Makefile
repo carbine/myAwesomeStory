@@ -12,4 +12,5 @@ CLASSES = 			\
 default:
 	$(JC) $(JFLAGS) $(CLASSES)
 
-clea
+clean:
+	find . | grep "
