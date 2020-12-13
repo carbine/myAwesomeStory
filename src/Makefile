@@ -13,4 +13,4 @@ default:
 	$(JC) $(JFLAGS) $(CLASSES)
 
 clean:
-	find . | grep "class$$" | x
+	find . | grep "class$$" | xargs rm -f
