@@ -7,4 +7,5 @@ This program is designed to simulate a number of road intersections and learn th
 
 Once all the files have been downloaded type `make' and then type `Java Main [rewardNum intensity]'
 
-The two arguments are optional but both or neither are
+The two arguments are optional but both or neither are required. 
+T
