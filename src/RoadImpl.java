@@ -16,3 +16,12 @@ public class RoadImpl implements Road {
         this.lanes = lanes;
         this.length = length;
     }
+
+    public int lanes() {
+        return lanes;
+    }
+
+    public int length() {
+        return length;
+    }
+}
