@@ -20,4 +20,5 @@ public class RoadMapImpl implements RoadMap {
     private int nRoads;
     private int nIntersect;
     private Road[] roads;
-    private List<Interse
+    private List<Intersect> intersections;
+  
