@@ -22,4 +22,4 @@ public class RoadMapImpl implements RoadMap {
     private Road[] roads;
     private List<Intersect> intersections;
     private List<Car>[] carsOn;
-    private LinkedList<
+    private LinkedList<Coords> intersec
