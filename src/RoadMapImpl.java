@@ -23,4 +23,4 @@ public class RoadMapImpl implements RoadMap {
     private List<Intersect> intersections;
     private List<Car>[] carsOn;
     private LinkedList<Coords> intersectCoords = new LinkedList<Coords>();
-    //private HashMap<Road, Coords[]> roadLocations = n
+    //private HashMap<Road, Coords[]> roadLocations = new HashMap<Ro
