@@ -25,4 +25,4 @@ public class RoadMapImpl implements RoadMap {
     private LinkedList<Coords> intersectCoords = new LinkedList<Coords>();
     //private HashMap<Road, Coords[]> roadLocations = new HashMap<Road, Coords[]>();
     private Coords [][]roadCoords = {
-  
+        {new Coord
