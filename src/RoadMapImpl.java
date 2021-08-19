@@ -26,4 +26,5 @@ public class RoadMapImpl implements RoadMap {
     //private HashMap<Road, Coords[]> roadLocations = new HashMap<Road, Coords[]>();
     private Coords [][]roadCoords = {
         {new Coords(0, 20), new Coords(19, 20)}, 
-        {new Coords(19, 22), new Coords(0,
+        {new Coords(19, 22), new Coords(0, 22)}, 
+   
