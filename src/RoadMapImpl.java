@@ -27,4 +27,5 @@ public class RoadMapImpl implements RoadMap {
     private Coords [][]roadCoords = {
         {new Coords(0, 20), new Coords(19, 20)}, 
         {new Coords(19, 22), new Coords(0, 22)}, 
-        {new Coords (20, 19), new Coords(2
+        {new Coords (20, 19), new Coords(20, 0)},
+        {n
