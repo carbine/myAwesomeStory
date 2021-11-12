@@ -47,4 +47,4 @@ public class RoadMapImpl implements RoadMap {
         {new Coords(42, 45), new Coords(24, 45)},
         {new Coords(43, 65), new Coords(43, 46)}, 
         {new Coords(45, 46), new Coords(45, 65)}, 
-        {new Coords(45, 43), new
+        {new Coords(45, 43), new Coords(65, 4
