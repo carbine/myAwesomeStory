@@ -51,4 +51,5 @@ public class RoadMapImpl implements RoadMap {
         {new Coords(45, 45), new Coords(64, 45)}
     };
     
-    public RoadMapImpl()
+    public RoadMapImpl() {
+        nIntersec
