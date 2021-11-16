@@ -54,4 +54,4 @@ public class RoadMapImpl implements RoadMap {
     public RoadMapImpl() {
         nIntersect = 4;
     	nRoads = 24;
-        r
+        roads = new R
