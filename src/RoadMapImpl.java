@@ -55,4 +55,5 @@ public class RoadMapImpl implements RoadMap {
         nIntersect = 4;
     	nRoads = 24;
         roads = new Road[nRoads];
-    	intersectCoords.add(new Co
+    	intersectCoords.add(new Coords(20,20));
+    	in
