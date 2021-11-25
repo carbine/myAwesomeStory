@@ -57,4 +57,4 @@ public class RoadMapImpl implements RoadMap {
         roads = new Road[nRoads];
     	intersectCoords.add(new Coords(20,20));
     	intersectCoords.add(new Coords(20,40));
-    	inte
+    	intersectCoords.ad
