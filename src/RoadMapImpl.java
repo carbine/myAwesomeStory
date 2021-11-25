@@ -58,4 +58,4 @@ public class RoadMapImpl implements RoadMap {
     	intersectCoords.add(new Coords(20,20));
     	intersectCoords.add(new Coords(20,40));
     	intersectCoords.add(new Coords(40,40));
-    	inte
+    	intersectCoords.add(
