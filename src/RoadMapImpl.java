@@ -61,4 +61,5 @@ public class RoadMapImpl implements RoadMap {
     	intersectCoords.add(new Coords(40,20));
     	for (int i = 0; i < nRoads; i++) {
             Road r = new RoadImpl(1, 20);
-            //roadLocations.put(roads[i], roadCoords[
+            //roadLocations.put(roads[i], roadCoords[i]);
+    	}
