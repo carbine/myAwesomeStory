@@ -66,4 +66,5 @@ public class RoadMapImpl implements RoadMap {
         for (int i = 0; i < nIntersect; ++i) {
             for (int j = 0; j < 4; ++j) {
                 
-   
+            }
+        }
