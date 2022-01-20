@@ -70,4 +70,4 @@ public class RoadMapImpl implements RoadMap {
         }
     }
 
-    public
+    public boolean
