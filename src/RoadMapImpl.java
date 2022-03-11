@@ -75,4 +75,5 @@ public class RoadMapImpl implements RoadMap {
     }
 
     public boolean roadAt(Coords c) {
-        bool
+        boolean ret = false;
+      
