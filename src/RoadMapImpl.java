@@ -76,4 +76,5 @@ public class RoadMapImpl implements RoadMap {
 
     public boolean roadAt(Coords c) {
         boolean ret = false;
-        int cx = c.getX(), cy = c.
+        int cx = c.getX(), cy = c.getY();
+     
