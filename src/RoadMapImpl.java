@@ -83,3 +83,5 @@ public class RoadMapImpl implements RoadMap {
                 ret = true;
             }
         }
+        return ret;
+    }
