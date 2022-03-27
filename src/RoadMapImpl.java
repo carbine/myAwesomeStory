@@ -81,4 +81,5 @@ public class RoadMapImpl implements RoadMap {
             if ((i[0].getX() <= cx) == (cx <= i[1].getX()) ||
                     (i[0].getY() <= cy) == (cy <= i[1].getY())) {
                 ret = true;
-            
+            }
+        }
