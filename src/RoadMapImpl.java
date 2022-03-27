@@ -79,4 +79,5 @@ public class RoadMapImpl implements RoadMap {
         int cx = c.getX(), cy = c.getY();
         for (Coords[] i : roadCoords) {
             if ((i[0].getX() <= cx) == (cx <= i[1].getX()) ||
-                    (i[0].getY() <= cy) == (cy <= i[1
+                    (i[0].getY() <= cy) == (cy <= i[1].getY())) {
+   
