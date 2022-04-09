@@ -85,3 +85,5 @@ public class RoadMapImpl implements RoadMap {
         }
         return ret;
     }
+
+    public boolea
