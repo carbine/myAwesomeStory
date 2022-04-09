@@ -86,4 +86,5 @@ public class RoadMapImpl implements RoadMap {
         return ret;
     }
 
-    public boolean intersectAt(C
+    public boolean intersectAt(Coords c) {
+  
