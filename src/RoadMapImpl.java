@@ -94,4 +94,4 @@ public class RoadMapImpl implements RoadMap {
         return carsOn[i];
     }
 
- 
+    public int nRo
