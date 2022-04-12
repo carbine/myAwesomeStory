@@ -95,4 +95,5 @@ public class RoadMapImpl implements RoadMap {
     }
 
     public int nRoads() {
-     
+        return nRoads;
+   
