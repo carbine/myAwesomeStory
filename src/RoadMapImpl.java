@@ -99,4 +99,6 @@ public class RoadMapImpl implements RoadMap {
     }
 
     public Road road(int i) {
-        return
+        return roads[i];
+    }
+
