@@ -102,4 +102,5 @@ public class RoadMapImpl implements RoadMap {
         return roads[i];
     }
 
-    public List<Intersect> intersection
+    public List<Intersect> intersections() {
+        retu
