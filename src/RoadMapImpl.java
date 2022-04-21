@@ -104,4 +104,6 @@ public class RoadMapImpl implements RoadMap {
 
     public List<Intersect> intersections() {
         return intersections;
-  
+    }
+
+    public voi
