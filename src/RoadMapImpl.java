@@ -106,4 +106,4 @@ public class RoadMapImpl implements RoadMap {
         return intersections;
     }
 
-    public voi
+    public void spawn(int
