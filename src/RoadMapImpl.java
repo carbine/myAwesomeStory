@@ -107,4 +107,4 @@ public class RoadMapImpl implements RoadMap {
     }
 
     public void spawn(int road, int lane) {
-        Car c = new CarIm
+        Car c = new CarImpl(roads[road], 
