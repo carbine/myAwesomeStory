@@ -111,4 +111,5 @@ public class RoadMapImpl implements RoadMap {
         carsOn[road].add(c);
     }
 
-    public void c
+    public void clock() {
+    }
