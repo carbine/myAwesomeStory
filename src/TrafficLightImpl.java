@@ -11,3 +11,17 @@ import interfaces.TrafficLight;
 import utils.Coords;
 
 import java.util.ArrayList;
+import java.util.List;
+
+//Contains implementation of methods in interfaces.TrafficLight
+public class TrafficLightImpl implements TrafficLight {
+    private final int maxDelay = 3;
+    private Coords coords;
+    private boolean horizontalGreen;
+    private int lightSetting;
+    private int delay;
+
+    public TrafficLightImpl(Coords coords, boolean horizontalGreen) {
+        this.coords = coords;
+        this.horizontalGreen = horizontalGreen;
+        this.lightSetting = 0; //change this
