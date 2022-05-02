@@ -25,3 +25,16 @@ public class TrafficLightImpl implements TrafficLight {
         this.coords = coords;
         this.horizontalGreen = horizontalGreen;
         this.lightSetting = 0; //change this
+    }
+
+    @Override
+    public void switchLight(boolean newAction) {
+    	if (newAction) {
+    	if (getDelay() == 0) {
+    		delay = maxDelay;
+    	}
+    	}
+    }
+
+    public Coords getCoords() {
+        return coords;
