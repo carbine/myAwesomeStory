@@ -38,3 +38,17 @@ public class TrafficLightImpl implements TrafficLight {
 
     public Coords getCoords() {
         return coords;
+    }
+
+    public int getDelay()  {
+        return delay;
+    }
+
+    public void clock() {
+        if (delay > 0) {
+            delay--;
+            if (delay == 0) {
+                horizontalGreen = !horizontalGreen;
+            }
+        }
+    }
