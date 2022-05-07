@@ -39,3 +39,21 @@ public class RoadMapImpl implements RoadMap {
 
     RoadMapImpl() {
         Collections.addAll(roadEntrances, defaultEntrances);
+        grid = new char[gridSize][gridSize];
+        for (int i = 0; i < gridSize; i++) {
+            for (int j = 0; j < gridSize; j++) {
+                grid[i][j] = 'x';
+                for (Coords k : roadEntrances) {
+                    if ((0 < i && i < gridSize-1 && i == k.getY()) || 
+                        (0 < j && j < gridSize-1 && j == k.getX()))
+                    {
+                        grid[i][j] = roadChar;
+                    }
+                }
+            }
+        }
+    }
+
+    public RoadMapImpl(char[][] newGrid) {
+        grid = copyGrid(newGrid);
+        Collections.addAll(roadEntrances, defaultEntrances);
