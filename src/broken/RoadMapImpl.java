@@ -57,3 +57,24 @@ public class RoadMapImpl implements RoadMap {
     public RoadMapImpl(char[][] newGrid) {
         grid = copyGrid(newGrid);
         Collections.addAll(roadEntrances, defaultEntrances);
+    }
+
+   /* @Override
+    public void print(List<Car> cars, List<TrafficLight> trafficLights){
+        //copy grid and place cars onto it
+        char[][] newGrid = copyGrid(grid);
+        for (Car car : cars) {
+            int y = car.getCoords().getX(), x = car.getCoords().getY();
+            int dx = car.getDirection().getXSpeed();
+            int dy = car.getDirection().getYSpeed();
+            newGrid[y][x] = 
+                dx == 0 ? dy < 0 ? '^' : 'v' :
+                dy == 0 ? dx < 0 ? '<' : '>' :
+                    '6';
+        }
+        for(TrafficLight light : trafficLights) {
+            int x=light.getCoords().getX(), y=light.getCoords().getY();
+            if (light.getDelay() != 0) {
+                newGrid[y][x] = 'o';
+            } else {
+                newGrid[y][x] = light.horizontalGreen() ? '>' : 'v';
