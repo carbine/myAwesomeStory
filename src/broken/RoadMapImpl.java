@@ -78,3 +78,15 @@ public class RoadMapImpl implements RoadMap {
                 newGrid[y][x] = 'o';
             } else {
                 newGrid[y][x] = light.horizontalGreen() ? '>' : 'v';
+            }
+        }
+
+        //print new grid to screen
+        for (int i = 0; i < gridSize; i++) {
+            for (int j = 0; j < gridSize; j++) {
+                System.out.print(newGrid[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }*/
