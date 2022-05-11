@@ -90,3 +90,22 @@ public class RoadMapImpl implements RoadMap {
         }
         System.out.println();
     }*/
+
+    // Hash = 3 digit number (longer if more roads are added)
+    /*
+    1st - Num cars with velocity 0 on road 1
+    2nd - Num cars with velocity 0 on road 2
+    3rd - light setting (ie 0-green, 1 red for one of the roads)
+    //we don't want to include amber as a light setting because 
+    //we do not learn when the light is amber
+     */    
+    public int stateCode(TrafficLight t) {
+        int hash = 0;
+
+        int lightSetting;
+        if (t.horizontalGreen()) {
+            lightSetting = 1;
+        } else {
+        	lightSetting = 0;
+        }
+        
