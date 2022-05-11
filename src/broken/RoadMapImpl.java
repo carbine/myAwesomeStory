@@ -109,3 +109,21 @@ public class RoadMapImpl implements RoadMap {
         	lightSetting = 0;
         }
         
+        hash += lightSetting;
+        
+        // For each road off the traffic lights
+        // Follow it back until we hit either 9 or a car
+        // Mark that place         
+        
+        Coords c = new Coords(t.getCoords()).left().up();
+        int i;
+        // Road one we'll go vertically up
+        for (i = 0; i < 9; i++) {
+            c.setY(c.getY()-1);
+            if (carAt(c)) {
+                break;
+            }
+        }
+        int v1 = i;
+        c = new Coords(t.getCoords()).right().down();
+        // Road one we'll go vertically down
