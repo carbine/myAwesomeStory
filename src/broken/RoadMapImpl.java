@@ -140,3 +140,21 @@ public class RoadMapImpl implements RoadMap {
         c = new Coords(t.getCoords()).left().down();
         // Road two we'll go horizontally left
         for (i = 0; i < 9; i++) {
+            c.setX(c.getX()-1);
+            if (carAt(c)) {
+                break;
+            }
+        }
+        int h1 = i;
+        c = new Coords(t.getCoords()).right().up();
+        // Road two we'll go horizontally right
+        for (i = 0; i < 9; i++) {
+            c.setX(c.getX()+1);
+            if (carAt(c)) {
+                break;
+            }
+        }
+        int h2 = i;
+        hash += 100*(Math.min(h1, h2));
+    
+        return hash;
