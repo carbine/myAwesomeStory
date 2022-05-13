@@ -127,3 +127,16 @@ public class RoadMapImpl implements RoadMap {
         int v1 = i;
         c = new Coords(t.getCoords()).right().down();
         // Road one we'll go vertically down
+        
+        for (i = 0; i < 9; i++) {
+        	c.setY(c.getY()+1);    
+            if (carAt(c)) {
+                break;
+            }
+        }
+        int v2 = i;
+        hash += 10*(Math.min(v1, v2));
+
+        c = new Coords(t.getCoords()).left().down();
+        // Road two we'll go horizontally left
+        for (i = 0; i < 9; i++) {
