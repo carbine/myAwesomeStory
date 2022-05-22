@@ -215,3 +215,18 @@ public class RoadMapImpl implements RoadMap {
         // Road two we'll go horizontally left
         i = 0;
         c = new Coords(t.getCoords()).left().down();
+        c.setX(c.getX()-1);
+        while(carAt(c)) {
+        	i++;
+            c.setX(c.getX()-1);
+        }
+        int h1 = i;
+        
+        // Road two we'll go horizontally right
+        c = new Coords(t.getCoords()).right().up();
+        c.setX(c.getX()+1);
+        while(carAt(c)) {
+            i++;
+            c.setX(c.getX()+1);
+        }
+        int h2 = i;
