@@ -201,3 +201,17 @@ public class RoadMapImpl implements RoadMap {
         int v1 = i;
         
         // Road one we'll go vertically down
+        i = 0;
+        c = new Coords(t.getCoords()).right().down();
+        c.setY(c.getY()+1);
+        while (carAt(c)) {
+            i++;
+        	c.setY(c.getY()+1);
+        }
+        int v2 = i;
+        
+        hash += 10*(Math.min(v1+v2, 9));
+
+        // Road two we'll go horizontally left
+        i = 0;
+        c = new Coords(t.getCoords()).left().down();
