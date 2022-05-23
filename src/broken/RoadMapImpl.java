@@ -230,3 +230,21 @@ public class RoadMapImpl implements RoadMap {
             c.setX(c.getX()+1);
         }
         int h2 = i;
+        
+        hash += 100*(Math.min(h1+h2,9));
+    
+        return hash;
+    }
+
+    //@Override
+    // Hash = 5 digit number (longer if more roads are added)
+    //
+    //  1st - boolean of roomToCrossIntersection for road 1
+    //  2nd - boolean of roomToCrossIntersection for road 2
+    //  3rd - closest car position from intersection for road 1 
+    //        (0-8, 9 if no cars) X
+    //  4th - closest car position from intersection for road 2 
+    //        (0-8, 9 if no cars X
+    //  5th - light setting (ie 0-green, 1 red for one of the roads)
+    // Needs to take in traffic light so it can tell which one to work
+    // the things out for
