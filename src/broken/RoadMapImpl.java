@@ -248,3 +248,17 @@ public class RoadMapImpl implements RoadMap {
     //  5th - light setting (ie 0-green, 1 red for one of the roads)
     // Needs to take in traffic light so it can tell which one to work
     // the things out for
+   /* public int stateCode3(TrafficLight t, List<Car> cars) {
+        int hash = 0;
+        boolean room = true;
+        
+        int lightSetting = 0;
+        if (t.horizontalGreen()) {
+            lightSetting = 1;
+        }
+
+        hash += lightSetting;
+        
+        // For each road off the traffic lights
+        // Follow it back until we hit either 9 or a car
+        // Mark that place         
