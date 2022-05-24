@@ -262,3 +262,21 @@ public class RoadMapImpl implements RoadMap {
         // For each road off the traffic lights
         // Follow it back until we hit either 9 or a car
         // Mark that place         
+        
+        // Road one we'll go vertically up
+        int i = 0;
+        Coords c = new Coords(t.getCoords()).left().up();  
+        c.setY(c.getY()-1);  
+        if (carAt(c)) {
+        	for (Car car: cars) {
+        		if (car.getCoords() == c) {
+        			if (!roomToCrossIntersection(
+                            c, car.getDirection(), t)) {
+                    	room = false;
+                    }
+        			break;
+        		}
+        	}
+        }
+        while (carAt(c)) {
+        	i++;
