@@ -280,3 +280,18 @@ public class RoadMapImpl implements RoadMap {
         }
         while (carAt(c)) {
         	i++;
+            c.setY(c.getY()-1); 
+        }
+        int v1 = i;
+        
+        // Road one we'll go vertically down
+        i = 0;
+        c = new Coords(t.getCoords()).right().down();
+        c.setY(c.getY()+1);
+        if (carAt(c)) {
+        	for (Car car: cars) {
+        		if (car.getCoords() == c) {
+        			if (!roomToCrossIntersection(
+                            c, car.getDirection(), t)) {
+                    	room = false;
+                    }
