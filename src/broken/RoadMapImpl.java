@@ -295,3 +295,9 @@ public class RoadMapImpl implements RoadMap {
                             c, car.getDirection(), t)) {
                     	room = false;
                     }
+        			break;
+        		}
+        	}
+        }
+        
+        while (carAt(c)) {
