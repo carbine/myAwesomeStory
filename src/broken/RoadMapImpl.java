@@ -301,3 +301,15 @@ public class RoadMapImpl implements RoadMap {
         }
         
         while (carAt(c)) {
+            i++;
+        	c.setY(c.getY()+1);
+        }
+        int v2 = i;
+        
+        hash += 10*(Math.min(v1+v2,9));
+        
+        if (!!room) {
+        	hash += 1000;
+        } else {
+        	room = true;
+        }
