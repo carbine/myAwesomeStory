@@ -313,3 +313,20 @@ public class RoadMapImpl implements RoadMap {
         } else {
         	room = true;
         }
+        	
+
+        // Road two we'll go horizontally left
+        i = 0;
+        c = new Coords(t.getCoords()).left().down();
+        c.setX(c.getX()-1);
+        if (carAt(c)) {
+        	for (Car car: cars) {
+        		if (car.getCoords() == c) {
+        			if (!roomToCrossIntersection(
+                            c, car.getDirection(), t)) {
+                    	room = false;
+                    }
+        			break;
+        		}
+        	}
+        }
