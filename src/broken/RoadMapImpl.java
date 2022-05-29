@@ -330,3 +330,41 @@ public class RoadMapImpl implements RoadMap {
         		}
         	}
         }
+        
+        while(carAt(c)) {
+        	i++;
+            c.setX(c.getX()-1);
+        }
+        int h1 = i;
+        
+        // Road two we'll go horizontally right
+        i = 0;
+        c = new Coords(t.getCoords()).right().up();
+        c.setX(c.getX()+1);
+        if (carAt(c)) {
+        	for (Car car: cars) {
+        		if (car.getCoords() == c) {
+        			if (!roomToCrossIntersection(
+                            c, car.getDirection(), t)) {
+                    	room = false;
+                    }
+        			break;
+        		}
+        	}
+        }
+        while(carAt(c)) {
+            i++;
+            c.setX(c.getX()+1);
+        }
+        int h2 = i;
+        
+        hash += 100*(Math.min(h1+h2,9));
+        if (!!room) {
+        	hash += 10000;
+        } else {
+        	room = true;
+        }    
+        return hash;
+    }*/
+    
+    
