@@ -368,3 +368,16 @@ public class RoadMapImpl implements RoadMap {
     }*/
     
     
+    @Override
+    public boolean roomToCrossIntersection(
+            Coords position, Velocity direction, TrafficLight l) {
+        //set coords for start of intersection
+        Coords trafficLightCoords = trafficLightCoords(direction, l);
+        //iterate for thirteen squares from start of 
+        //intersection, counting blanks
+        int blankRoadTiles = 0;
+        Coords current = new Coords(
+                trafficLightCoords.getX(), trafficLightCoords.getY());
+        for (int i = 0; i < 20; i++) {
+            if (!carAt(current)) {
+                blankRoadTiles++;
