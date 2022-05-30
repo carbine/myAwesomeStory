@@ -381,3 +381,23 @@ public class RoadMapImpl implements RoadMap {
         for (int i = 0; i < 20; i++) {
             if (!carAt(current)) {
                 blankRoadTiles++;
+            }
+            current.setX(current.getX() + direction.getXSpeed());
+            current.setY(current.getY() + direction.getYSpeed());
+        }
+        //4 tiles - three for intersection, one for car on other side
+        return blankRoadTiles >= 4;
+    }
+
+    /*
+    @Override
+    public TrafficLight getClosestTrafficLight(
+            Car car, List<TrafficLight> trafficLights
+    ) {
+        //Iterate along road in direction of car, return
+        //traffic light first encountered or null
+        Coords coords = new Coords(
+            car.getCoords().getX(), car.getCoords().getY());
+        while (coords.getX() >=0 && coords.getY() >= 0 &&
+                coords.getX() < 60 && coords.getY() < 60
+        ) {
