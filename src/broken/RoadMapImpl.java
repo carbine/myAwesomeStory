@@ -401,3 +401,33 @@ public class RoadMapImpl implements RoadMap {
         while (coords.getX() >=0 && coords.getY() >= 0 &&
                 coords.getX() < 60 && coords.getY() < 60
         ) {
+            for (TrafficLight t : trafficLights) {
+                if (coords.equals(
+                        trafficLightCoords(car.getDirection(), t))) {
+                    return t;
+                }
+            }
+            coords.setX(coords.getX() + car.getDirection().getXSpeed());
+            coords.setY(coords.getY() + car.getDirection().getYSpeed());
+        }
+        return trafficLights.get(0);
+    }*/
+
+    @Override
+    public List<Coords> getRoadEntrances() {
+        return roadEntrances;
+    }
+
+    @Override
+    public Velocity getStartingVelocity(Coords roadEntrance) {
+        int x = roadEntrance.getX(), y = roadEntrance.getY();
+        return new Velocity(
+            y == 0 || y == gridSize - 1 ? 0 : x == 0 ? 1 : -1,
+            x == 0 || x == gridSize - 1 ? 0 : y == 0 ? 1 : -1
+        );
+    }
+
+    @Override
+    public RoadMap copyMap() {
+        return new RoadMapImpl(grid);
+    }
