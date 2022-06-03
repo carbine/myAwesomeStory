@@ -431,3 +431,16 @@ public class RoadMapImpl implements RoadMap {
     public RoadMap copyMap() {
         return new RoadMapImpl(grid);
     }
+
+    /*
+    @Override
+    public void addCars(List<Car> cars) {
+        for (Car c : cars)
+        {
+            grid[c.getCoords().getY()][c.getCoords().getX()] = carChar;
+        }
+    }*/
+
+    @Override
+    public boolean nextNonCarSquareIsTrafficLight(
+            Coords start, 
