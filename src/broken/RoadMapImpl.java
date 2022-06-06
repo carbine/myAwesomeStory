@@ -444,3 +444,15 @@ public class RoadMapImpl implements RoadMap {
     @Override
     public boolean nextNonCarSquareIsTrafficLight(
             Coords start, 
+            Velocity direction, 
+            TrafficLight trafficLight) {
+        Coords current = new Coords(start.getX(), start.getY());
+        current.setX(current.getX() + direction.getXSpeed());
+        current.setY(current.getY() + direction.getYSpeed());
+        //need different traffic light coords depending on direction
+        Coords trafficLightCoords = 
+                trafficLightCoords(direction, trafficLight);
+
+        while (current.getX() < gridSize && current.getX() >= 0 &&
+                current.getY() < gridSize && current.getY() >= 0 &&
+                carAt(current) &&
