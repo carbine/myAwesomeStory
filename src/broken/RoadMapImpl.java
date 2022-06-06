@@ -456,3 +456,17 @@ public class RoadMapImpl implements RoadMap {
         while (current.getX() < gridSize && current.getX() >= 0 &&
                 current.getY() < gridSize && current.getY() >= 0 &&
                 carAt(current) &&
+                !trafficLightCoords.equals(current)) {
+            current.setX(current.getX() + direction.getXSpeed());
+            current.setY(current.getY() + direction.getYSpeed());
+        }
+        return trafficLightCoords.equals(current);
+    }
+
+    @Override
+    public boolean carAt(Coords coords) {
+
+        return  
+            0 <= coords.getX() && coords.getX() < gridSize &&
+            0 <= coords.getY() && coords.getY() < gridSize &&
+            grid[coords.getY()][coords.getX()] == carChar;
