@@ -470,3 +470,23 @@ public class RoadMapImpl implements RoadMap {
             0 <= coords.getX() && coords.getX() < gridSize &&
             0 <= coords.getY() && coords.getY() < gridSize &&
             grid[coords.getY()][coords.getX()] == carChar;
+    }
+    
+    public boolean roadAt(Coords coords) {
+        return  
+            0 <= coords.getX() && coords.getX() < gridSize &&
+            0 <= coords.getY() && coords.getY() < gridSize &&
+            grid[coords.getY()][coords.getX()] == roadChar;
+    }
+
+    private char[][] copyGrid(char[][] grid)
+    {
+        char[][] newGrid = new char[gridSize][gridSize];
+
+        //explicit copy so array is not a reference to previous array
+        for (int i = 0; i < gridSize; i++)
+        {
+            System.arraycopy(grid[i], 0, newGrid[i], 0, gridSize);
+        }
+        return newGrid;
+    }
