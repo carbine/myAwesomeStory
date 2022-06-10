@@ -490,3 +490,22 @@ public class RoadMapImpl implements RoadMap {
         }
         return newGrid;
     }
+
+    private Coords trafficLightCoords(Velocity direction, 
+            TrafficLight trafficLight) {
+        Coords trafficLightCoords = new Coords(0,0);
+        if (direction.getXSpeed() == 0) {
+            if (direction.getYSpeed() == 1) {
+                trafficLightCoords =
+                        trafficLight.getCoords().left().up();
+            } else if (direction.getYSpeed() == -1) {
+                trafficLightCoords =
+                        trafficLight.getCoords().right().down();
+            }
+        } else if (direction.getYSpeed() == 0) {
+            if (direction.getXSpeed() == 1) {
+                trafficLightCoords =
+                        trafficLight.getCoords().down().left();
+            } else if (direction.getXSpeed() == -1) {
+                trafficLightCoords =
+                        trafficLight.getCoords().right().up();
