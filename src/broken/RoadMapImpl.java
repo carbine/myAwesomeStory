@@ -509,3 +509,8 @@ public class RoadMapImpl implements RoadMap {
             } else if (direction.getXSpeed() == -1) {
                 trafficLightCoords =
                         trafficLight.getCoords().right().up();
+            }
+        }
+        return trafficLightCoords;
+    }
+}
