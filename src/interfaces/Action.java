@@ -8,4 +8,4 @@ Gill Morris
 Nathan Wilson
 */
 
-public int
+public interface Action {
