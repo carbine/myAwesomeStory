@@ -11,4 +11,4 @@ Nathan Wilson
 public interface Action {
     public boolean action();
 
-    publ
+    public int actionIn
