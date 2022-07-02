@@ -1,3 +1,3 @@
 /*
 COMP9417 Machine Learning
-Major Project - Traffic Ligh
+Major Project - Traffic Lights Reinforcement Le
