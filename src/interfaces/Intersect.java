@@ -10,4 +10,4 @@ package interfaces;
 
 import java.util.List;
 
-publi
+public interfac
