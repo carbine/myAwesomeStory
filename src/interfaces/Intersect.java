@@ -10,4 +10,6 @@ package interfaces;
 
 import java.util.List;
 
-public interfac
+public interface Intersect {
+
+ 
