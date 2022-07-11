@@ -12,4 +12,6 @@ import java.util.List;
 
 public interface Intersect {
 
-    List<Ro
+    List<Road> in();
+
+    Li
