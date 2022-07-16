@@ -14,4 +14,6 @@ public interface Intersect {
 
     List<Road> in();
 
-    List<Road> out
+    List<Road> out();
+    
+    
