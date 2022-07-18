@@ -16,4 +16,6 @@ public interface Intersect {
 
     List<Road> out();
     
-    int lightSetting
+    int lightSetting();
+
+    List<Inte
