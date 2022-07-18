@@ -18,4 +18,4 @@ public interface Intersect {
     
     int lightSetting();
 
-    List<Inte
+    List<Integer> delay();
