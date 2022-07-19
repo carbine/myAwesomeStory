@@ -19,3 +19,5 @@ public interface Intersect {
     int lightSetting();
 
     List<Integer> delay();
+
+    void clock
