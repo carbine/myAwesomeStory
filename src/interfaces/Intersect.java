@@ -20,4 +20,6 @@ public interface Intersect {
 
     List<Integer> delay();
 
-    void clock
+    void clock();
+
+    void setLight(i
