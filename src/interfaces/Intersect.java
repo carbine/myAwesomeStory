@@ -22,4 +22,5 @@ public interface Intersect {
 
     void clock();
 
-    void setLight(i
+    void setLight(int setting);
+}
