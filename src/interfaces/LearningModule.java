@@ -9,4 +9,4 @@ Nathan Wilson
 import java.util.List;
 
 //Contains the logic for our reinforcement learning.
-publi
+public interface Lea
