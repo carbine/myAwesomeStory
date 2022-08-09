@@ -11,4 +11,6 @@ import java.util.List;
 //Contains the logic for our reinforcement learning.
 public interface LearningModule {
 
-    
+    int decide(int s);
+
+  
