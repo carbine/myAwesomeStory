@@ -15,4 +15,4 @@ public interface LearningModule {
 
     void learn(int a, int s, int sp);
 
-    i
+    int stateCode(Inte
