@@ -13,4 +13,6 @@ public interface LearningModule {
 
     int decide(int s);
 
-    void learn(int a, int s, 
+    void learn(int a, int s, int sp);
+
+    i
