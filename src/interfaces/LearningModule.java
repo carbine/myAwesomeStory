@@ -15,4 +15,6 @@ public interface LearningModule {
 
     void learn(int a, int s, int sp);
 
-    int stateCode(Intersect i, RoadMap m)
+    int stateCode(Intersect i, RoadMap m);
+
+    void setR
