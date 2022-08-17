@@ -17,4 +17,5 @@ public interface LearningModule {
 
     int stateCode(Intersect i, RoadMap m);
 
-    void setRLParam(double alpha, double gamma, dou
+    void setRLParam(double alpha, double gamma, double epsilon);
+}
