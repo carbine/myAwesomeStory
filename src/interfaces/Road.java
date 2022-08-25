@@ -8,4 +8,4 @@ Nathan Wilson
 
 package interfaces;
 
-pu
+public interface R
