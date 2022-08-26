@@ -8,4 +8,6 @@ Nathan Wilson
 
 package interfaces;
 
-public interface R
+public interface Road {
+
+    in
