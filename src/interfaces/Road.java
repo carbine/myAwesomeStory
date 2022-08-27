@@ -10,4 +10,6 @@ package interfaces;
 
 public interface Road {
 
-    in
+    int lanes();
+
+    i
