@@ -12,4 +12,5 @@ public interface Road {
 
     int lanes();
 
-    i
+    int length();
+}
