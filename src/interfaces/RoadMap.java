@@ -22,3 +22,16 @@ public interface RoadMap {
     List<Intersect> intersections();
 
     int nRoads();
+
+    Road road(int i);
+
+    boolean roadAt(Coords c);
+
+    boolean carAt(Coords c);
+
+    boolean intersectAt(Coords c);
+
+    void spawn(int road, int lane);
+
+    void clock();
+}
