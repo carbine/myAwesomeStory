@@ -1,4 +1,4 @@
 package interfaces;
 
 /*
-COMP9417 Mac
+COMP9417 Machine Lea
