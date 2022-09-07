@@ -1,4 +1,5 @@
 package interfaces;
 
 /*
-COMP9417 Machine Lea
+COMP9417 Machine Learning
+Major Pr
