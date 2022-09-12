@@ -8,4 +8,6 @@ Gill Morris
 Nathan Wilson
 */
 
-import utils.Coord
+import utils.Coords;
+
+//interface for t
