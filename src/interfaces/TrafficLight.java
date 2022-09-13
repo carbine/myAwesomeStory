@@ -10,4 +10,4 @@ Nathan Wilson
 
 import utils.Coords;
 
-//interface for t
+//interface for trafficLight obje
