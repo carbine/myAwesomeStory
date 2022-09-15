@@ -11,4 +11,4 @@ Nathan Wilson
 import utils.Coords;
 
 //interface for trafficLight object class - 
-//represents a traf
+//represents a traffic light, its position
