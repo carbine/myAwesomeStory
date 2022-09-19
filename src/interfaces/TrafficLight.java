@@ -12,4 +12,4 @@ import utils.Coords;
 
 //interface for trafficLight object class - 
 //represents a traffic light, its position and current state
-public interfac
+public interface TrafficLi
