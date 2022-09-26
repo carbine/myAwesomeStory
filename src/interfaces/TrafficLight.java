@@ -14,4 +14,6 @@ import utils.Coords;
 //represents a traffic light, its position and current state
 public interface TrafficLight {
     //Changes direction of traffic light if getDelay() == 0
-    void switchLight(boolean ne
+    void switchLight(boolean newAction);
+
+    //Ge
