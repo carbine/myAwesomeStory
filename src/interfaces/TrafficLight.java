@@ -16,4 +16,4 @@ public interface TrafficLight {
     //Changes direction of traffic light if getDelay() == 0
     void switchLight(boolean newAction);
 
-    //Get coordina
+    //Get coordinates of tr
