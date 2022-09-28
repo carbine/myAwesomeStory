@@ -17,4 +17,4 @@ public interface TrafficLight {
     void switchLight(boolean newAction);
 
     //Get coordinates of traffic light
-    
+    Coords getCoord
