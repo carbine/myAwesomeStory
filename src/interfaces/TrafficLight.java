@@ -19,4 +19,4 @@ public interface TrafficLight {
     //Get coordinates of traffic light
     Coords getCoords();
 
-    //Time unti
+    //Time until the currently a
