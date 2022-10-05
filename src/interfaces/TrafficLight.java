@@ -20,4 +20,6 @@ public interface TrafficLight {
     Coords getCoords();
 
     //Time until the currently amber light goes red
-    int getD
+    int getDelay();
+
+    /
