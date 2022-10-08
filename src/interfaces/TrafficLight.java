@@ -22,4 +22,4 @@ public interface TrafficLight {
     //Time until the currently amber light goes red
     int getDelay();
 
-    //Inform the light that a unit of t
+    //Inform the light that a unit of time has pass
