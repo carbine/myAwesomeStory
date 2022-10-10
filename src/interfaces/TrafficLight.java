@@ -23,4 +23,6 @@ public interface TrafficLight {
     int getDelay();
 
     //Inform the light that a unit of time has passed.
-    void cl
+    void clock();
+
+    //Nu
