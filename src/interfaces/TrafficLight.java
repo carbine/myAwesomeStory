@@ -25,4 +25,4 @@ public interface TrafficLight {
     //Inform the light that a unit of time has passed.
     void clock();
 
-    //Number of squares 
+    //Number of squares outward of this.
