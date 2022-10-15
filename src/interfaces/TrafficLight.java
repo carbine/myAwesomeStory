@@ -26,4 +26,4 @@ public interface TrafficLight {
     void clock();
 
     //Number of squares outward of this.getCoords() that are considered
-    //part
+    //part of the governed in
