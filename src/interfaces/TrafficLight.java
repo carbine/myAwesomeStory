@@ -28,4 +28,4 @@ public interface TrafficLight {
     //Number of squares outward of this.getCoords() that are considered
     //part of the governed intersection.
     //For instance, this.radius()==0 -> a single square
-    //         
+    //              this.radius()=
