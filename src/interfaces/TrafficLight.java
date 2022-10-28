@@ -29,4 +29,6 @@ public interface TrafficLight {
     //part of the governed intersection.
     //For instance, this.radius()==0 -> a single square
     //              this.radius()==1 -> a 3x3 square
-    int 
+    int radius();
+
+    boolean horizontalGre
