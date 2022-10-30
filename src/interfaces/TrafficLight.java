@@ -31,4 +31,5 @@ public interface TrafficLight {
     //              this.radius()==1 -> a 3x3 square
     int radius();
 
-    boolean horizontalGre
+    boolean horizontalGreen();
+}
