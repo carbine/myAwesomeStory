@@ -1,4 +1,5 @@
 package utils;
 
 /*
-COMP9417 Machine L
+COMP9417 Machine Learning
+Major Pro
