@@ -2,4 +2,4 @@ package utils;
 
 /*
 COMP9417 Machine Learning
-Major Project - Traffic Li
+Major Project - Traffic Lights Reinforceme
