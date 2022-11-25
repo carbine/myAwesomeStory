@@ -10,4 +10,4 @@ Nathan Wilson
 
 import java.util.LinkedList;
 
-//Utility class to implement th
+//Utility class to implement the 'coordinates'
