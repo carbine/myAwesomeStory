@@ -10,4 +10,5 @@ Nathan Wilson
 
 import java.util.LinkedList;
 
-//Utility class to implement the 'coordinates' of an obje
+//Utility class to implement the 'coordinates' of an object
+public class 
