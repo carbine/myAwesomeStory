@@ -13,4 +13,5 @@ import java.util.LinkedList;
 //Utility class to implement the 'coordinates' of an object
 public class Coords extends Object {
 
-    private i
+    private int x;
+    pri
