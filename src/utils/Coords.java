@@ -14,4 +14,6 @@ import java.util.LinkedList;
 public class Coords extends Object {
 
     private int x;
-    pri
+    private int y;
+
+ 
