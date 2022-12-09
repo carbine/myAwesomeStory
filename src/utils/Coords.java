@@ -16,4 +16,4 @@ public class Coords extends Object {
     private int x;
     private int y;
 
- 
+    public Coor
