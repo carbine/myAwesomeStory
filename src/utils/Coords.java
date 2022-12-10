@@ -17,4 +17,5 @@ public class Coords extends Object {
     private int y;
 
     public Coords(int x, int y) {
-        t
+        this.x = x;
+    
