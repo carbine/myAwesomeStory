@@ -22,4 +22,5 @@ public class Coords extends Object {
     }
 
     public Coords(Coords coords) {
-        this.x = coo
+        this.x = coords.getX();
+  
