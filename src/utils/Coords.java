@@ -23,4 +23,7 @@ public class Coords extends Object {
 
     public Coords(Coords coords) {
         this.x = coords.getX();
-        this.y = coords.getY()
+        this.y = coords.getY();
+    }
+
+    publi
