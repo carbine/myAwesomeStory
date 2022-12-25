@@ -26,4 +26,5 @@ public class Coords extends Object {
         this.y = coords.getY();
     }
 
-    publi
+    public int getX() {
+       
