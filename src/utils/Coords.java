@@ -31,4 +31,7 @@ public class Coords extends Object {
     }
 
     public int getY() {
-        ret
+        return y;
+    }
+
+    publi
