@@ -28,4 +28,6 @@ public class Coords extends Object {
 
     public int getX() {
         return x;
-   
+    }
+
+    public int ge
