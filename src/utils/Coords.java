@@ -34,4 +34,4 @@ public class Coords extends Object {
         return y;
     }
 
-    publi
+    public void setX(int x
