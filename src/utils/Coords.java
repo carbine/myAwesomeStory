@@ -35,4 +35,5 @@ public class Coords extends Object {
     }
 
     public void setX(int x) {
-        thi
+        this.x = x;
+    }
