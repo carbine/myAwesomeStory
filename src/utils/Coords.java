@@ -42,4 +42,5 @@ public class Coords extends Object {
         this.y = y;
     }
 
-    publ
+    public Coords left() {
+ 
