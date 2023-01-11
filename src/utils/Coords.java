@@ -40,4 +40,6 @@ public class Coords extends Object {
 
     public void setY(int y) {
         this.y = y;
- 
+    }
+
+    publ
