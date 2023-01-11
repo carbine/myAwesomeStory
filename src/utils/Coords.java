@@ -38,4 +38,4 @@ public class Coords extends Object {
         this.x = x;
     }
 
-    public v
+    public void setY(int y) {
