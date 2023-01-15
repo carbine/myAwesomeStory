@@ -43,4 +43,4 @@ public class Coords extends Object {
     }
 
     public Coords left() {
- 
+        return new 
