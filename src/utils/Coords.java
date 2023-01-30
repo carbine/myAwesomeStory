@@ -51,4 +51,4 @@ public class Coords extends Object {
     }
 
     public Coords up() {
-        
+        return new C
