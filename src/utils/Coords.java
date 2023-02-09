@@ -55,4 +55,4 @@ public class Coords extends Object {
     }
 
     public Coords down() {
-     
+        return new Coords
