@@ -59,4 +59,4 @@ public class Coords extends Object {
     }
 
     @Override
-  
+    public boolean equals
