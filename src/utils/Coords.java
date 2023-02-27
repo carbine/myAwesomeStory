@@ -60,4 +60,4 @@ public class Coords extends Object {
 
     @Override
     public boolean equals(Object obj) {
-        if (ob
+        if (obj == null)
