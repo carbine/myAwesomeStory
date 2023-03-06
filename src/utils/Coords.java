@@ -62,4 +62,4 @@ public class Coords extends Object {
     public boolean equals(Object obj) {
         if (obj == null)
             return false;
-        Coor
+        Coords coords = (Coor
