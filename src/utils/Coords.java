@@ -63,4 +63,5 @@ public class Coords extends Object {
         if (obj == null)
             return false;
         Coords coords = (Coords) obj;
-        return (this.x == coords.getX() && this.y == coords
+        return (this.x == coords.getX() && this.y == coords.getY());
+  
