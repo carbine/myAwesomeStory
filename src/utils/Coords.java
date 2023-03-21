@@ -66,4 +66,5 @@ public class Coords extends Object {
         return (this.x == coords.getX() && this.y == coords.getY());
     }
 
-    @Overri
+    @Override
+    public
