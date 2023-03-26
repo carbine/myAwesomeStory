@@ -67,4 +67,5 @@ public class Coords extends Object {
     }
 
     @Override
-    public
+    public int hashCode() {
+       
