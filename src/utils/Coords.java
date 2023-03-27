@@ -68,4 +68,4 @@ public class Coords extends Object {
 
     @Override
     public int hashCode() {
-       
+        return (1000 * x) + y;
