@@ -71,4 +71,4 @@ public class Coords extends Object {
         return (1000 * x) + y;
     }
 
-    public LinkedList<Co
+    public LinkedList<Coords> neighbours
