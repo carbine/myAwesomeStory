@@ -72,4 +72,4 @@ public class Coords extends Object {
     }
 
     public LinkedList<Coords> neighbours() {
-        LinkedL
+        LinkedList<Coords> 
