@@ -73,3 +73,4 @@ public class Coords extends Object {
 
     public LinkedList<Coords> neighbours() {
         LinkedList<Coords> n = new LinkedList<Coords>();
+        n.add
