@@ -75,4 +75,4 @@ public class Coords extends Object {
         LinkedList<Coords> n = new LinkedList<Coords>();
         n.add(this.left());
         n.add(this.up());
-        n
+        n.add(this.right());
