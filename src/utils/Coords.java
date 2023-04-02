@@ -76,3 +76,4 @@ public class Coords extends Object {
         n.add(this.left());
         n.add(this.up());
         n.add(this.right());
+        n.add(this.down()
