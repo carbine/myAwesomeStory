@@ -18,3 +18,20 @@ public class Velocity {
         this.x = xSpeed;
         this.y = ySpeed;
     }
+
+    public int getXSpeed() {
+        return x;
+    }
+
+    public int getYSpeed() {
+        return y;
+    }
+
+    public void setXSpeed(int xSpeed) {
+        x = xSpeed;
+    }
+
+    public void setYSpeed(int ySpeed) {
+        y = ySpeed;
+    }
+}
